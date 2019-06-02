@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">心理健康助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="back_str">返回</string>
+    <string name="quick_register_str">快速注册</string>
+    <string name="select_image_str">图库选择</string>
+    <string name="take_photo_str">拍照获取</string>
+    <string name="email_str">电子邮箱（用于找回密码）：</string>
+    <string name="name_str">姓名：</string>
+    <string name="tel_str">电话：</string>
+    <string name="wechat_str">微信：</string>
+    <string name="sex_str">性别：</string>
+    <string name="birthday_str">生日：</string>
+    <string name="pass_rety_str">重复密码：</string>
+    <string name="required_str">必填</string>
+    <string name="pass_str">密码：</string>
+    <string name="username_str">用户名：</string>
+    <string name="find_pass_str">找回密码</string>
+    <string name="register_email_str">注册邮箱:</string>
+    <string name="home_page_str">主页</string>
+    <string name="login_str">登录</string>
+    <string name="remember_pass_str">记住密码:</string>
+    <string name="forget_pass_str">忘记密码？</string>
+    <string name="no_account_get_one_str">没有账号？注册一个</string>
+    <string name="update_pass_str">修改密码</string>
+    <string name="yuan_pass_str">原密码：</string>
+    <string name="make_sure_str">确认修改</string>
+    <string name="improve_information_str">完善个人信息</string>
+    <string name="submit_str">提交</string>
+    <string name="please_input_username_or_email_str">请填写用户名或邮箱</string>
+    <string name="find_pass_error_str">找回密码错误</string>
+    <string name="email_sended_str">邮件已发送，请查收</string>
+    <string name="press_the_exit_procedure_again_str">再按一次退出程序</string>
+    <string name="username_or_pass_error_str">用户名或密码错误</string>
+    <string name="login_success_str">登录成功</string>
+    <string name="person_center_str">个人中心</string>
+    <string name="log_out_str">注销登录</string>
+    <string name="exit_app_str">退出应用</string>
+    <string name="select_phote_require_str">请选择头像</string>
+    <string name="username_passe_is_no_null_str">账号或密码不能为空</string>
+    <string name="pass_diff_str">两次密码不一样</string>
+    <string name="register_fail_str">注册失败</string>
+    <string name="register_success_to_login_str">注册成功,请登录</string>
+    <string name="please_input_complete_str">请将信息填写完整</string>
+    <string name="yuan_pass_error_str">原密码不正确</string>
+    <string name="update_pass_error_str">密码修改失败</string>
+    <string name="update_error_success_str">密码修改成功</string>
+    <string name="uodate_error_str">更新失败</string>
+    <string name="update_success_str">更新成功</string>
+
+
+    <string name="server_ip_str">服务器IP</string>
+    <string name="save_str">确定保存</string>
+    <string name="ip_error_str">IP 填写不正确</string>
+    <string name="service_ip_error_str">服务器IP填写不正确</string>
+    <string name="localhost_ip_str">本机IP：</string>
+    <string name="input_server_ip_str">请填写运行服务器项目电脑的局域网IP</string>
+
+    <string-array name="sex_array">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>

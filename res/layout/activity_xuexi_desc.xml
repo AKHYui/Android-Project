@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 标题栏 -->
+    <LinearLayout
+        android:id="@+id/title_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/mainBg">
+        <TextView
+            android:id="@+id/left_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/back"
+            android:drawablePadding="5dp"
+            android:textSize="@dimen/text_small"
+            android:text="返回"/>
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_common"
+            android:text="心理咨询"/>
+
+        <TextView
+            android:id="@+id/right_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:textSize="@dimen/text_small"
+            android:text="操作"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_big"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_common"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="咨询室："
+                android:textColor="@android:color/holo_blue_light"/>
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="@dimen/text_common"
+                android:text="山西农业大学信息学院心理咨询室"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_common"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="联系电话："
+                android:textColor="@android:color/holo_blue_light"/>
+            <TextView
+                android:id="@+id/tel_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="@dimen/text_common"
+                android:text="0354-5503525"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_common"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="开放时间："
+                android:textColor="@android:color/holo_blue_light"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="@dimen/text_common"
+                android:text="08:00 ~ 22：00"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
