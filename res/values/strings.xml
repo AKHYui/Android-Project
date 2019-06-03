@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">心理健康助手</string>
+    <string name="app_name">百商贴</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="back_str">返回</string>
     <string name="quick_register_str">快速注册</string>
+    <string name="quick_register_str1">商家快速注册</string>
     <string name="select_image_str">图库选择</string>
     <string name="take_photo_str">拍照获取</string>
-    <string name="email_str">电子邮箱（用于找回密码）：</string>
+    <string name="email_str">电子邮箱：</string>
     <string name="name_str">姓名：</string>
     <string name="tel_str">电话：</string>
     <string name="wechat_str">微信：</string>
@@ -59,7 +60,7 @@
     <string name="ip_error_str">IP 填写不正确</string>
     <string name="service_ip_error_str">服务器IP填写不正确</string>
     <string name="localhost_ip_str">本机IP：</string>
-    <string name="input_server_ip_str">请填写运行服务器项目电脑的局域网IP</string>
+    <string name="input_server_ip_str">请填写目标服务器的IP</string>
 
     <string-array name="sex_array">
         <item>男</item>

@@ -36,6 +36,7 @@
         </activity>
 
         <activity android:name="com.example.androidtemplate.user.RegisterActivity"></activity>
+        <activity android:name="com.example.androidtemplate.user.BuRegisterActivity"></activity>
         <activity android:name="com.example.androidtemplate.user.FindPasswordActivity"></activity>
         <activity android:name="com.example.androidtemplate.user.PersonalActivity"></activity>
         <activity android:name="com.example.androidtemplate.user.UpdatePasswordActivity"></activity>
@@ -57,6 +58,7 @@
 	<activity android:name=".XinwenActivity"></activity>
 		<activity android:name=".XinwenAddActivity"></activity>
 		<activity android:name=".XinwenDescActivity"></activity>
+		<activity android:name="SelectActivity"></activity>
 </application>
 
 </manifest>

@@ -49,6 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/padding_big"
+        android:background="#FFFFFF"
         android:orientation="vertical">
 
         <TextView
@@ -58,6 +59,7 @@
             android:textSize="@dimen/text_big"
             android:padding="@dimen/text_common"
             android:drawableRight="@drawable/arrow_right_gray"
+            android:textColor="#000000"
             android:text="@string/improve_information_str"/>
 
         <TextView
@@ -67,6 +69,7 @@
             android:textSize="@dimen/text_big"
             android:padding="@dimen/text_common"
             android:drawableRight="@drawable/arrow_right_gray"
+            android:textColor="#000000"
             android:text="@string/update_pass_str"/>
 
         <TextView
@@ -76,6 +79,7 @@
             android:textSize="@dimen/text_big"
             android:padding="@dimen/text_common"
             android:drawableRight="@drawable/arrow_right_gray"
+            android:textColor="#000000"
             android:text="@string/log_out_str"/>
 
         <TextView
@@ -85,6 +89,7 @@
             android:textSize="@dimen/text_big"
             android:padding="@dimen/text_common"
             android:drawableRight="@drawable/arrow_right_gray"
+            android:textColor="#000000"
             android:text="@string/exit_app_str"/>
     </LinearLayout>
 

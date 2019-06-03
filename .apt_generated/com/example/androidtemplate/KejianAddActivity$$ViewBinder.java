@@ -8,14 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class KejianAddActivity$$ViewBinder<T extends com.example.androidtemplate.KejianAddActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131361816, "field 'nameEt'");
-    target.nameEt = finder.castView(view, 2131361816, "field 'nameEt'");
-    view = finder.findRequiredView(source, 2131361792, "field 'titleLl'");
-    target.titleLl = finder.castView(view, 2131361792, "field 'titleLl'");
-    view = finder.findRequiredView(source, 2131361794, "field 'titleTv'");
-    target.titleTv = finder.castView(view, 2131361794, "field 'titleTv'");
-    view = finder.findRequiredView(source, 2131361795, "field 'rightTv' and method 'onClick'");
-    target.rightTv = finder.castView(view, 2131361795, "field 'rightTv'");
+    view = finder.findRequiredView(source, 2131361814, "field 'rightTv' and method 'onClick'");
+    target.rightTv = finder.castView(view, 2131361814, "field 'rightTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -24,12 +18,8 @@ public class KejianAddActivity$$ViewBinder<T extends com.example.androidtemplate
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361796, "field 'contentLl'");
-    target.contentLl = finder.castView(view, 2131361796, "field 'contentLl'");
-    view = finder.findRequiredView(source, 2131361814, "field 'imgIv'");
-    target.imgIv = finder.castView(view, 2131361814, "field 'imgIv'");
-    view = finder.findRequiredView(source, 2131361793, "field 'leftTv' and method 'onClick'");
-    target.leftTv = finder.castView(view, 2131361793, "field 'leftTv'");
+    view = finder.findRequiredView(source, 2131361846, "field 'okBtn' and method 'onClick'");
+    target.okBtn = finder.castView(view, 2131361846, "field 'okBtn'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -38,8 +28,10 @@ public class KejianAddActivity$$ViewBinder<T extends com.example.androidtemplate
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361827, "field 'okBtn' and method 'onClick'");
-    target.okBtn = finder.castView(view, 2131361827, "field 'okBtn'");
+    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
+    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
+    view = finder.findRequiredView(source, 2131361832, "field 'picAdd2Tv' and method 'onClick'");
+    target.picAdd2Tv = finder.castView(view, 2131361832, "field 'picAdd2Tv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -48,8 +40,8 @@ public class KejianAddActivity$$ViewBinder<T extends com.example.androidtemplate
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361812, "field 'picAddTv' and method 'onClick'");
-    target.picAddTv = finder.castView(view, 2131361812, "field 'picAddTv'");
+    view = finder.findRequiredView(source, 2131361831, "field 'picAddTv' and method 'onClick'");
+    target.picAddTv = finder.castView(view, 2131361831, "field 'picAddTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -58,8 +50,12 @@ public class KejianAddActivity$$ViewBinder<T extends com.example.androidtemplate
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361813, "field 'picAdd2Tv' and method 'onClick'");
-    target.picAdd2Tv = finder.castView(view, 2131361813, "field 'picAdd2Tv'");
+    view = finder.findRequiredView(source, 2131361833, "field 'imgIv'");
+    target.imgIv = finder.castView(view, 2131361833, "field 'imgIv'");
+    view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
+    target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
+    view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
+    target.leftTv = finder.castView(view, 2131361812, "field 'leftTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -68,18 +64,22 @@ public class KejianAddActivity$$ViewBinder<T extends com.example.androidtemplate
           target.onClick(p0);
         }
       });
+    view = finder.findRequiredView(source, 2131361815, "field 'contentLl'");
+    target.contentLl = finder.castView(view, 2131361815, "field 'contentLl'");
+    view = finder.findRequiredView(source, 2131361835, "field 'nameEt'");
+    target.nameEt = finder.castView(view, 2131361835, "field 'nameEt'");
   }
 
   @Override public void unbind(T target) {
-    target.nameEt = null;
-    target.titleLl = null;
-    target.titleTv = null;
     target.rightTv = null;
-    target.contentLl = null;
-    target.imgIv = null;
-    target.leftTv = null;
     target.okBtn = null;
-    target.picAddTv = null;
+    target.titleTv = null;
     target.picAdd2Tv = null;
+    target.picAddTv = null;
+    target.imgIv = null;
+    target.titleLl = null;
+    target.leftTv = null;
+    target.contentLl = null;
+    target.nameEt = null;
   }
 }

@@ -8,8 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class PersonalActivity$$ViewBinder<T extends com.example.androidtemplate.user.PersonalActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131361807, "field 'userUpdateTv' and method 'onClick'");
-    target.userUpdateTv = finder.castView(view, 2131361807, "field 'userUpdateTv'");
+    view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
+    target.leftTv = finder.castView(view, 2131361812, "field 'leftTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -18,8 +18,12 @@ public class PersonalActivity$$ViewBinder<T extends com.example.androidtemplate.
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361808, "field 'updatePasswordTv' and method 'onClick'");
-    target.updatePasswordTv = finder.castView(view, 2131361808, "field 'updatePasswordTv'");
+    view = finder.findRequiredView(source, 2131361815, "field 'contentLl'");
+    target.contentLl = finder.castView(view, 2131361815, "field 'contentLl'");
+    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
+    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
+    view = finder.findRequiredView(source, 2131361827, "field 'updatePasswordTv' and method 'onClick'");
+    target.updatePasswordTv = finder.castView(view, 2131361827, "field 'updatePasswordTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -28,8 +32,8 @@ public class PersonalActivity$$ViewBinder<T extends com.example.androidtemplate.
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361795, "field 'rightTv' and method 'onClick'");
-    target.rightTv = finder.castView(view, 2131361795, "field 'rightTv'");
+    view = finder.findRequiredView(source, 2131361829, "field 'exitTv' and method 'onClick'");
+    target.exitTv = finder.castView(view, 2131361829, "field 'exitTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -38,8 +42,8 @@ public class PersonalActivity$$ViewBinder<T extends com.example.androidtemplate.
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361809, "field 'logoutTv' and method 'onClick'");
-    target.logoutTv = finder.castView(view, 2131361809, "field 'logoutTv'");
+    view = finder.findRequiredView(source, 2131361814, "field 'rightTv' and method 'onClick'");
+    target.rightTv = finder.castView(view, 2131361814, "field 'rightTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -48,12 +52,8 @@ public class PersonalActivity$$ViewBinder<T extends com.example.androidtemplate.
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361792, "field 'titleLl'");
-    target.titleLl = finder.castView(view, 2131361792, "field 'titleLl'");
-    view = finder.findRequiredView(source, 2131361796, "field 'contentLl'");
-    target.contentLl = finder.castView(view, 2131361796, "field 'contentLl'");
-    view = finder.findRequiredView(source, 2131361810, "field 'exitTv' and method 'onClick'");
-    target.exitTv = finder.castView(view, 2131361810, "field 'exitTv'");
+    view = finder.findRequiredView(source, 2131361828, "field 'logoutTv' and method 'onClick'");
+    target.logoutTv = finder.castView(view, 2131361828, "field 'logoutTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -62,10 +62,8 @@ public class PersonalActivity$$ViewBinder<T extends com.example.androidtemplate.
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361794, "field 'titleTv'");
-    target.titleTv = finder.castView(view, 2131361794, "field 'titleTv'");
-    view = finder.findRequiredView(source, 2131361793, "field 'leftTv' and method 'onClick'");
-    target.leftTv = finder.castView(view, 2131361793, "field 'leftTv'");
+    view = finder.findRequiredView(source, 2131361826, "field 'userUpdateTv' and method 'onClick'");
+    target.userUpdateTv = finder.castView(view, 2131361826, "field 'userUpdateTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -74,17 +72,19 @@ public class PersonalActivity$$ViewBinder<T extends com.example.androidtemplate.
           target.onClick(p0);
         }
       });
+    view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
+    target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
   }
 
   @Override public void unbind(T target) {
-    target.userUpdateTv = null;
+    target.leftTv = null;
+    target.contentLl = null;
+    target.titleTv = null;
     target.updatePasswordTv = null;
+    target.exitTv = null;
     target.rightTv = null;
     target.logoutTv = null;
+    target.userUpdateTv = null;
     target.titleLl = null;
-    target.contentLl = null;
-    target.exitTv = null;
-    target.titleTv = null;
-    target.leftTv = null;
   }
 }

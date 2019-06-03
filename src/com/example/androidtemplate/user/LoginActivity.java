@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.example.androidtemplate.Http.HttpUtil;
 import com.example.androidtemplate.MainActivity;
 import com.example.androidtemplate.R;
+import com.example.androidtemplate.SelectActivity;
 import com.example.androidtemplate.common.BaseActivity;
 import com.example.androidtemplate.common.D;
 import com.example.androidtemplate.common.T;
@@ -126,7 +127,7 @@ public class LoginActivity extends BaseActivity {
                 startActivity(new Intent(this_,FindPasswordActivity.class));
                 break;
             case R.id.switch_fun_tv:
-                startActivity(new Intent(this_,RegisterActivity.class));
+                startActivity(new Intent(this_,SelectActivity.class));
                 //leftInOut();
                 break;
         }

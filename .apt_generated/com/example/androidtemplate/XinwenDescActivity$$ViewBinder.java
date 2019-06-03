@@ -8,16 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class XinwenDescActivity$$ViewBinder<T extends com.example.androidtemplate.XinwenDescActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131361796, "field 'contentLl'");
-    target.contentLl = finder.castView(view, 2131361796, "field 'contentLl'");
-    view = finder.findRequiredView(source, 2131361792, "field 'titleLl'");
-    target.titleLl = finder.castView(view, 2131361792, "field 'titleLl'");
-    view = finder.findRequiredView(source, 2131361794, "field 'titleTv'");
-    target.titleTv = finder.castView(view, 2131361794, "field 'titleTv'");
-    view = finder.findRequiredView(source, 2131361837, "field 'msgTv'");
-    target.msgTv = finder.castView(view, 2131361837, "field 'msgTv'");
-    view = finder.findRequiredView(source, 2131361793, "field 'leftTv' and method 'onClick'");
-    target.leftTv = finder.castView(view, 2131361793, "field 'leftTv'");
+    view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
+    target.leftTv = finder.castView(view, 2131361812, "field 'leftTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -26,10 +18,8 @@ public class XinwenDescActivity$$ViewBinder<T extends com.example.androidtemplat
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361836, "field 'nameTv'");
-    target.nameTv = finder.castView(view, 2131361836, "field 'nameTv'");
-    view = finder.findRequiredView(source, 2131361795, "field 'rightTv' and method 'onClick'");
-    target.rightTv = finder.castView(view, 2131361795, "field 'rightTv'");
+    view = finder.findRequiredView(source, 2131361814, "field 'rightTv' and method 'onClick'");
+    target.rightTv = finder.castView(view, 2131361814, "field 'rightTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -38,15 +28,25 @@ public class XinwenDescActivity$$ViewBinder<T extends com.example.androidtemplat
           target.onClick(p0);
         }
       });
+    view = finder.findRequiredView(source, 2131361858, "field 'msgTv'");
+    target.msgTv = finder.castView(view, 2131361858, "field 'msgTv'");
+    view = finder.findRequiredView(source, 2131361857, "field 'nameTv'");
+    target.nameTv = finder.castView(view, 2131361857, "field 'nameTv'");
+    view = finder.findRequiredView(source, 2131361815, "field 'contentLl'");
+    target.contentLl = finder.castView(view, 2131361815, "field 'contentLl'");
+    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
+    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
+    view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
+    target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
   }
 
   @Override public void unbind(T target) {
-    target.contentLl = null;
-    target.titleLl = null;
-    target.titleTv = null;
-    target.msgTv = null;
     target.leftTv = null;
-    target.nameTv = null;
     target.rightTv = null;
+    target.msgTv = null;
+    target.nameTv = null;
+    target.contentLl = null;
+    target.titleTv = null;
+    target.titleLl = null;
   }
 }

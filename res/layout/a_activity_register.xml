@@ -56,6 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="@dimen/padding_big"
+            android:background="#FFFFFF"
             android:orientation="vertical">
 
             <LinearLayout
@@ -75,6 +76,7 @@
                         android:drawableLeft="@drawable/pic_add"
                         android:drawablePadding="@dimen/padding_small"
                         android:gravity=""
+                        android:textColor="#000000"
                         android:text="@string/select_image_str"/>
                 </LinearLayout>
 
@@ -89,6 +91,7 @@
                         android:layout_height="wrap_content"
                         android:drawableLeft="@drawable/pic_add"
                         android:drawablePadding="@dimen/padding_small"
+                        android:textColor="#000000"
                         android:text="@string/take_photo_str"/>
                 </LinearLayout>
 
@@ -115,6 +118,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="@string/username_str"/>
                 <EditText
                     android:id="@+id/username_et"
@@ -131,6 +135,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="@string/pass_str"/>
                 <EditText
                     android:id="@+id/password_et"
@@ -148,6 +153,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="@string/pass_rety_str"/>
                 <EditText
                     android:id="@+id/password2_et"
@@ -164,10 +170,12 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="@string/email_str"/>
                 <EditText
                     android:id="@+id/email_et"
                     android:layout_width="match_parent"
+                    android:hint="必填"
                     android:layout_height="wrap_content" />
             </LinearLayout>
 
@@ -179,6 +187,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="@string/name_str"/>
                 <EditText
                     android:id="@+id/name_et"
@@ -195,6 +204,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="@string/tel_str"/>
                 <EditText
                     android:id="@+id/tel_et"
@@ -210,6 +220,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="QQ："/>
                 <EditText
                     android:id="@+id/qq_et"
@@ -225,6 +236,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="@string/wechat_str"/>
                 <EditText
                     android:id="@+id/we_chat_et"
@@ -240,6 +252,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="@string/birthday_str"/>
                 <EditText
                     android:id="@+id/birth_et"
@@ -254,6 +267,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="@string/sex_str"/>
                 <Spinner
                     android:id="@+id/sex_sp"

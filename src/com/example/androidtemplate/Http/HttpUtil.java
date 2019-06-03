@@ -7,7 +7,7 @@ import com.loopj.android.http.RequestParams;
 
 public class HttpUtil {
 
-    public static String ip = "192.168.31.132:8080";
+    public static String ip = "114.115.252.17:8080";
     public static String BASE_URL = "http://"+ip+"/";
     public static String BASE_URL_UPLOAD = BASE_URL+ "/upload/";
 
