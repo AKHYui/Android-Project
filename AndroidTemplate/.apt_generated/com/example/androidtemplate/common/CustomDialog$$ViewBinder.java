@@ -8,6 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class CustomDialog$$ViewBinder<T extends com.example.androidtemplate.common.CustomDialog> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
+    view = finder.findRequiredView(source, 2131361845, "field 'hintMsgTv'");
+    target.hintMsgTv = finder.castView(view, 2131361845, "field 'hintMsgTv'");
     view = finder.findRequiredView(source, 2131361847, "field 'cancelBtn' and method 'onClick'");
     target.cancelBtn = finder.castView(view, 2131361847, "field 'cancelBtn'");
     view.setOnClickListener(
@@ -18,15 +20,13 @@ public class CustomDialog$$ViewBinder<T extends com.example.androidtemplate.comm
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361845, "field 'hintMsgTv'");
-    target.hintMsgTv = finder.castView(view, 2131361845, "field 'hintMsgTv'");
     view = finder.findRequiredView(source, 2131361846, "field 'okBtn'");
     target.okBtn = finder.castView(view, 2131361846, "field 'okBtn'");
   }
 
   @Override public void unbind(T target) {
-    target.cancelBtn = null;
     target.hintMsgTv = null;
+    target.cancelBtn = null;
     target.okBtn = null;
   }
 }
