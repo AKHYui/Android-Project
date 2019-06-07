@@ -1,6 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    
     android:orientation="vertical">
 
     <!-- 标题栏 -->
@@ -49,6 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/padding_big"
+        android:background="#FFFFFF"
         android:orientation="vertical">
 
         <ListView

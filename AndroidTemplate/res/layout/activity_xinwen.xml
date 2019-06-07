@@ -49,6 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/padding_big"
+        android:background="#FFFFFF"
         android:orientation="vertical">
 
         <LinearLayout
@@ -67,6 +68,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:textSize="@dimen/text_common"
+                android:textColor="#000000"
                 android:text="带有标题的文本显示"/>
         </LinearLayout>
 

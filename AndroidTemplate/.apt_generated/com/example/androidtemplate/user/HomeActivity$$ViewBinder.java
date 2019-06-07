@@ -8,8 +8,6 @@ import butterknife.ButterKnife.ViewBinder;
 public class HomeActivity$$ViewBinder<T extends com.example.androidtemplate.user.HomeActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131361819, "field 'homeGv'");
-    target.homeGv = finder.castView(view, 2131361819, "field 'homeGv'");
     view = finder.findRequiredView(source, 2131361814, "field 'rightTv'");
     target.rightTv = finder.castView(view, 2131361814, "field 'rightTv'");
     view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
@@ -26,13 +24,15 @@ public class HomeActivity$$ViewBinder<T extends com.example.androidtemplate.user
     target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
     view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
     target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
+    view = finder.findRequiredView(source, 2131361819, "field 'homeGv'");
+    target.homeGv = finder.castView(view, 2131361819, "field 'homeGv'");
   }
 
   @Override public void unbind(T target) {
-    target.homeGv = null;
     target.rightTv = null;
     target.leftTv = null;
     target.titleLl = null;
     target.titleTv = null;
+    target.homeGv = null;
   }
 }

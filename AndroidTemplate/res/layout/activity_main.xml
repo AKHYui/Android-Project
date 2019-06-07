@@ -71,7 +71,7 @@
             android:id="@+id/shade_lv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#86222222"
+            android:background="#C0C0C0"
             android:visibility="visible"
             android:orientation="horizontal">
         </LinearLayout>
@@ -79,7 +79,7 @@
             android:id="@+id/menu_lv"
             android:layout_width="180dp"
             android:layout_height="match_parent"
-            android:background="@drawable/bookread"
+            android:background="#FFFFFF"
             android:orientation="vertical"
             android:visibility="visible">
 
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:padding="@dimen/padding_common"
-                android:text="心理视频小课堂"
+                android:text="精美视频"
                 android:textColor="#242424"
                 android:drawablePadding="@dimen/padding_small"
                 android:drawableLeft="@drawable/mark"
@@ -143,7 +143,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:padding="@dimen/padding_common"
-                android:text="心理知识小课堂"
+                android:text="商家介绍"
                 android:textColor="#242424"
                 android:drawablePadding="@dimen/padding_small"
                 android:drawableLeft="@drawable/mark"
@@ -163,7 +163,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:padding="@dimen/padding_common"
-                android:text="心理健康测试"
+                android:text="有奖竞猜"
                 android:textColor="#242424"
                 android:drawablePadding="@dimen/padding_small"
                 android:drawableLeft="@drawable/mark"
@@ -181,7 +181,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:padding="@dimen/padding_common"
-                android:text="心理咨询"
+                android:text="关于商家"
                 android:textColor="#242424"
                 android:drawablePadding="@dimen/padding_small"
                 android:drawableLeft="@drawable/mark"
