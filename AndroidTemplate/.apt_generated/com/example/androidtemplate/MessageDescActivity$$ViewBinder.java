@@ -8,10 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class MessageDescActivity$$ViewBinder<T extends com.example.androidtemplate.MessageDescActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
-    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
-    view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
-    target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
+    view = finder.findRequiredView(source, 2131361857, "field 'nameTv'");
+    target.nameTv = finder.castView(view, 2131361857, "field 'nameTv'");
     view = finder.findRequiredView(source, 2131361815, "field 'contentLl'");
     target.contentLl = finder.castView(view, 2131361815, "field 'contentLl'");
     view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
@@ -24,6 +22,10 @@ public class MessageDescActivity$$ViewBinder<T extends com.example.androidtempla
           target.onClick(p0);
         }
       });
+    view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
+    target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
+    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
+    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
     view = finder.findRequiredView(source, 2131361814, "field 'rightTv' and method 'onClick'");
     target.rightTv = finder.castView(view, 2131361814, "field 'rightTv'");
     view.setOnClickListener(
@@ -34,16 +36,14 @@ public class MessageDescActivity$$ViewBinder<T extends com.example.androidtempla
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361857, "field 'nameTv'");
-    target.nameTv = finder.castView(view, 2131361857, "field 'nameTv'");
   }
 
   @Override public void unbind(T target) {
-    target.titleTv = null;
-    target.titleLl = null;
+    target.nameTv = null;
     target.contentLl = null;
     target.leftTv = null;
+    target.titleLl = null;
+    target.titleTv = null;
     target.rightTv = null;
-    target.nameTv = null;
   }
 }

@@ -30,7 +30,7 @@
             android:textColor="@android:color/white"
             android:gravity="center"
             android:textSize="@dimen/text_common"
-            android:text="心理知识小课堂"/>
+            android:text="商家介绍"/>
 
         <TextView
             android:id="@+id/right_tv"

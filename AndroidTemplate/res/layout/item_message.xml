@@ -31,10 +31,5 @@
         android:padding="@dimen/padding_small"
         android:textSize="@dimen/text_big"
         android:visibility="gone"/>
-    
-    	<ImageView
-    	    android:layout_width="match_parent"
-    	    android:layout_height="match_parent"
-    	    android:src="#FFFFFF" />
 
 </LinearLayout>
