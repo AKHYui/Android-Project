@@ -8,6 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class GradeActivity$$ViewBinder<T extends com.example.androidtemplate.GradeActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
+    view = finder.findRequiredView(source, 2131361853, "field 'commitBtn'");
+    target.commitBtn = finder.castView(view, 2131361853, "field 'commitBtn'");
     view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
     target.leftTv = finder.castView(view, 2131361812, "field 'leftTv'");
     view.setOnClickListener(
@@ -18,18 +20,8 @@ public class GradeActivity$$ViewBinder<T extends com.example.androidtemplate.Gra
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
-    target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
-    view = finder.findRequiredView(source, 2131361815, "field 'contentLl'");
-    target.contentLl = finder.castView(view, 2131361815, "field 'contentLl'");
-    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
-    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
     view = finder.findRequiredView(source, 2131361852, "field 'gradeTv'");
     target.gradeTv = finder.castView(view, 2131361852, "field 'gradeTv'");
-    view = finder.findRequiredView(source, 2131361853, "field 'commitBtn'");
-    target.commitBtn = finder.castView(view, 2131361853, "field 'commitBtn'");
-    view = finder.findRequiredView(source, 2131361854, "field 'listview'");
-    target.listview = finder.castView(view, 2131361854, "field 'listview'");
     view = finder.findRequiredView(source, 2131361814, "field 'rightTv' and method 'onClick'");
     target.rightTv = finder.castView(view, 2131361814, "field 'rightTv'");
     view.setOnClickListener(
@@ -40,16 +32,24 @@ public class GradeActivity$$ViewBinder<T extends com.example.androidtemplate.Gra
           target.onClick(p0);
         }
       });
+    view = finder.findRequiredView(source, 2131361854, "field 'listview'");
+    target.listview = finder.castView(view, 2131361854, "field 'listview'");
+    view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
+    target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
+    view = finder.findRequiredView(source, 2131361815, "field 'contentLl'");
+    target.contentLl = finder.castView(view, 2131361815, "field 'contentLl'");
+    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
+    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
   }
 
   @Override public void unbind(T target) {
+    target.commitBtn = null;
     target.leftTv = null;
+    target.gradeTv = null;
+    target.rightTv = null;
+    target.listview = null;
     target.titleLl = null;
     target.contentLl = null;
     target.titleTv = null;
-    target.gradeTv = null;
-    target.commitBtn = null;
-    target.listview = null;
-    target.rightTv = null;
   }
 }

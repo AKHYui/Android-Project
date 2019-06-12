@@ -57,7 +57,7 @@ public class XuexiActivity extends BaseActivity {
             @Override
             public void convert(ViewHolder helper, Xuexi item) {
                 helper.setText(R.id.name_tv,item.getName());
-                helper.setText(R.id.msg_tv,"解析："+item.getMsg());
+                helper.setText(R.id.msg_tv,"介绍："+item.getMsg());
             }
         };
 

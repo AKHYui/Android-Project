@@ -8,8 +8,10 @@ import butterknife.ButterKnife.ViewBinder;
 public class TestActivity$$ViewBinder<T extends com.example.androidtemplate.TestActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131361880, "field 'radioButtonRight' and method 'onClick'");
-    target.radioButtonRight = finder.castView(view, 2131361880, "field 'radioButtonRight'");
+    view = finder.findRequiredView(source, 2131361878, "field 'answerTv'");
+    target.answerTv = finder.castView(view, 2131361878, "field 'answerTv'");
+    view = finder.findRequiredView(source, 2131361876, "field 'radioButtonC' and method 'onClick'");
+    target.radioButtonC = finder.castView(view, 2131361876, "field 'radioButtonC'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -18,8 +20,40 @@ public class TestActivity$$ViewBinder<T extends com.example.androidtemplate.Test
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361814, "field 'rightTv' and method 'onClick'");
-    target.rightTv = finder.castView(view, 2131361814, "field 'rightTv'");
+    view = finder.findRequiredView(source, 2131361884, "field 'preBtn' and method 'onClick'");
+    target.preBtn = finder.castView(view, 2131361884, "field 'preBtn'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131361881, "field 'radioButtonError' and method 'onClick'");
+    target.radioButtonError = finder.castView(view, 2131361881, "field 'radioButtonError'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131361838, "field 'weChatEt'");
+    target.weChatEt = finder.castView(view, 2131361838, "field 'weChatEt'");
+    view = finder.findRequiredView(source, 2131361875, "field 'radioButtonB' and method 'onClick'");
+    target.radioButtonB = finder.castView(view, 2131361875, "field 'radioButtonB'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
+    target.leftTv = finder.castView(view, 2131361812, "field 'leftTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -38,34 +72,30 @@ public class TestActivity$$ViewBinder<T extends com.example.androidtemplate.Test
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361872, "field 'problemTv'");
-    target.problemTv = finder.castView(view, 2131361872, "field 'problemTv'");
+    view = finder.findRequiredView(source, 2131361879, "field 'panduanRg'");
+    target.panduanRg = finder.castView(view, 2131361879, "field 'panduanRg'");
+    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
+    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
+    view = finder.findRequiredView(source, 2131361871, "field 'xuanzeLl'");
+    target.xuanzeLl = finder.castView(view, 2131361871, "field 'xuanzeLl'");
     view = finder.findRequiredView(source, 2131361887, "field 'remainTv'");
     target.remainTv = finder.castView(view, 2131361887, "field 'remainTv'");
-    view = finder.findRequiredView(source, 2131361881, "field 'radioButtonError' and method 'onClick'");
-    target.radioButtonError = finder.castView(view, 2131361881, "field 'radioButtonError'");
-    view.setOnClickListener(
-      new butterknife.internal.DebouncingOnClickListener() {
-        @Override public void doClick(
-          android.view.View p0
-        ) {
-          target.onClick(p0);
-        }
-      });
-    view = finder.findRequiredView(source, 2131361874, "field 'radioButtonA' and method 'onClick'");
-    target.radioButtonA = finder.castView(view, 2131361874, "field 'radioButtonA'");
-    view.setOnClickListener(
-      new butterknife.internal.DebouncingOnClickListener() {
-        @Override public void doClick(
-          android.view.View p0
-        ) {
-          target.onClick(p0);
-        }
-      });
-    view = finder.findRequiredView(source, 2131361885, "field 'countTv'");
-    target.countTv = finder.castView(view, 2131361885, "field 'countTv'");
+    view = finder.findRequiredView(source, 2131361872, "field 'problemTv'");
+    target.problemTv = finder.castView(view, 2131361872, "field 'problemTv'");
     view = finder.findRequiredView(source, 2131361886, "field 'nextBtn' and method 'onClick'");
     target.nextBtn = finder.castView(view, 2131361886, "field 'nextBtn'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131361882, "field 'wendaLl'");
+    target.wendaLl = finder.castView(view, 2131361882, "field 'wendaLl'");
+    view = finder.findRequiredView(source, 2131361880, "field 'radioButtonRight' and method 'onClick'");
+    target.radioButtonRight = finder.castView(view, 2131361880, "field 'radioButtonRight'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -81,20 +111,16 @@ public class TestActivity$$ViewBinder<T extends com.example.androidtemplate.Test
         @Override public void doClick(
           android.view.View p0
         ) {
-          target.onClick(p0);
           target.onClick();
+          target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361879, "field 'panduanRg'");
-    target.panduanRg = finder.castView(view, 2131361879, "field 'panduanRg'");
+    view = finder.findRequiredView(source, 2131361885, "field 'countTv'");
+    target.countTv = finder.castView(view, 2131361885, "field 'countTv'");
     view = finder.findRequiredView(source, 2131361873, "field 'xuanzeRg'");
     target.xuanzeRg = finder.castView(view, 2131361873, "field 'xuanzeRg'");
-    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
-    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
-    view = finder.findRequiredView(source, 2131361838, "field 'weChatEt'");
-    target.weChatEt = finder.castView(view, 2131361838, "field 'weChatEt'");
-    view = finder.findRequiredView(source, 2131361884, "field 'preBtn' and method 'onClick'");
-    target.preBtn = finder.castView(view, 2131361884, "field 'preBtn'");
+    view = finder.findRequiredView(source, 2131361874, "field 'radioButtonA' and method 'onClick'");
+    target.radioButtonA = finder.castView(view, 2131361874, "field 'radioButtonA'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -103,36 +129,8 @@ public class TestActivity$$ViewBinder<T extends com.example.androidtemplate.Test
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361876, "field 'radioButtonC' and method 'onClick'");
-    target.radioButtonC = finder.castView(view, 2131361876, "field 'radioButtonC'");
-    view.setOnClickListener(
-      new butterknife.internal.DebouncingOnClickListener() {
-        @Override public void doClick(
-          android.view.View p0
-        ) {
-          target.onClick(p0);
-        }
-      });
-    view = finder.findRequiredView(source, 2131361883, "field 'preNextLl'");
-    target.preNextLl = finder.castView(view, 2131361883, "field 'preNextLl'");
-    view = finder.findRequiredView(source, 2131361875, "field 'radioButtonB' and method 'onClick'");
-    target.radioButtonB = finder.castView(view, 2131361875, "field 'radioButtonB'");
-    view.setOnClickListener(
-      new butterknife.internal.DebouncingOnClickListener() {
-        @Override public void doClick(
-          android.view.View p0
-        ) {
-          target.onClick(p0);
-        }
-      });
-    view = finder.findRequiredView(source, 2131361859, "field 'dateTv'");
-    target.dateTv = finder.castView(view, 2131361859, "field 'dateTv'");
-    view = finder.findRequiredView(source, 2131361882, "field 'wendaLl'");
-    target.wendaLl = finder.castView(view, 2131361882, "field 'wendaLl'");
-    view = finder.findRequiredView(source, 2131361871, "field 'xuanzeLl'");
-    target.xuanzeLl = finder.castView(view, 2131361871, "field 'xuanzeLl'");
-    view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
-    target.leftTv = finder.castView(view, 2131361812, "field 'leftTv'");
+    view = finder.findRequiredView(source, 2131361814, "field 'rightTv' and method 'onClick'");
+    target.rightTv = finder.castView(view, 2131361814, "field 'rightTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -143,34 +141,36 @@ public class TestActivity$$ViewBinder<T extends com.example.androidtemplate.Test
       });
     view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
     target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
-    view = finder.findRequiredView(source, 2131361878, "field 'answerTv'");
-    target.answerTv = finder.castView(view, 2131361878, "field 'answerTv'");
+    view = finder.findRequiredView(source, 2131361859, "field 'dateTv'");
+    target.dateTv = finder.castView(view, 2131361859, "field 'dateTv'");
+    view = finder.findRequiredView(source, 2131361883, "field 'preNextLl'");
+    target.preNextLl = finder.castView(view, 2131361883, "field 'preNextLl'");
   }
 
   @Override public void unbind(T target) {
-    target.radioButtonRight = null;
-    target.rightTv = null;
-    target.radioButtonD = null;
-    target.problemTv = null;
-    target.remainTv = null;
-    target.radioButtonError = null;
-    target.radioButtonA = null;
-    target.countTv = null;
-    target.nextBtn = null;
-    target.commitBtn = null;
-    target.panduanRg = null;
-    target.xuanzeRg = null;
-    target.titleTv = null;
-    target.weChatEt = null;
-    target.preBtn = null;
-    target.radioButtonC = null;
-    target.preNextLl = null;
-    target.radioButtonB = null;
-    target.dateTv = null;
-    target.wendaLl = null;
-    target.xuanzeLl = null;
-    target.leftTv = null;
-    target.titleLl = null;
     target.answerTv = null;
+    target.radioButtonC = null;
+    target.preBtn = null;
+    target.radioButtonError = null;
+    target.weChatEt = null;
+    target.radioButtonB = null;
+    target.leftTv = null;
+    target.radioButtonD = null;
+    target.panduanRg = null;
+    target.titleTv = null;
+    target.xuanzeLl = null;
+    target.remainTv = null;
+    target.problemTv = null;
+    target.nextBtn = null;
+    target.wendaLl = null;
+    target.radioButtonRight = null;
+    target.commitBtn = null;
+    target.countTv = null;
+    target.xuanzeRg = null;
+    target.radioButtonA = null;
+    target.rightTv = null;
+    target.titleLl = null;
+    target.dateTv = null;
+    target.preNextLl = null;
   }
 }

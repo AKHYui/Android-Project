@@ -79,7 +79,9 @@ public final class R {
         public static final int sss=0x7f020016;
         public static final int star=0x7f020017;
         public static final int uppay=0x7f020018;
-        public static final int wxpay=0x7f020019;
+        public static final int white=0x7f020019;
+        public static final int white_0=0x7f02001a;
+        public static final int wxpay=0x7f02001b;
     }
     public static final class id {
         public static final int activity_login=0x7f0a001c;

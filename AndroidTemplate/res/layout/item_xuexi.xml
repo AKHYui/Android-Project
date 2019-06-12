@@ -11,14 +11,17 @@
         android:layout_height="wrap_content"
         android:text="name"
         android:padding="@dimen/padding_small"
+        android:gravity="center"
+        android:textColor="#000000"
         android:textStyle="bold"
-        android:textSize="@dimen/text_big"/>
+        android:textSize="30sp"/>
 
     <TextView
         android:id="@+id/msg_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="name"
+        android:typeface="sans"
         android:textColor="#000000"
         android:padding="@dimen/padding_small"
         android:textSize="@dimen/text_big"/>

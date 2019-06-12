@@ -8,18 +8,12 @@ import butterknife.ButterKnife.ViewBinder;
 public class MainActivity$$ViewBinder<T extends com.example.androidtemplate.MainActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131361868, "field 'fourTv' and method 'onClick'");
-    target.fourTv = finder.castView(view, 2131361868, "field 'fourTv'");
-    view.setOnClickListener(
-      new butterknife.internal.DebouncingOnClickListener() {
-        @Override public void doClick(
-          android.view.View p0
-        ) {
-          target.onClick(p0);
-        }
-      });
-    view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
-    target.leftTv = finder.castView(view, 2131361812, "field 'leftTv'");
+    view = finder.findRequiredView(source, 2131361861, "field 'menuRl'");
+    target.menuRl = finder.castView(view, 2131361861, "field 'menuRl'");
+    view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
+    target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
+    view = finder.findRequiredView(source, 2131361864, "field 'backTv' and method 'onClick'");
+    target.backTv = finder.castView(view, 2131361864, "field 'backTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -38,8 +32,38 @@ public class MainActivity$$ViewBinder<T extends com.example.androidtemplate.Main
           target.onClick(p0);
         }
       });
+    view = finder.findRequiredView(source, 2131361867, "field 'threeTv' and method 'onClick'");
+    target.threeTv = finder.castView(view, 2131361867, "field 'threeTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
+    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
+    view = finder.findRequiredView(source, 2131361815, "field 'contentLl'");
+    target.contentLl = finder.castView(view, 2131361815, "field 'contentLl'");
     view = finder.findRequiredView(source, 2131361865, "field 'oneTv' and method 'onClick'");
     target.oneTv = finder.castView(view, 2131361865, "field 'oneTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131361862, "field 'shadeLv'");
+    target.shadeLv = finder.castView(view, 2131361862, "field 'shadeLv'");
+    view = finder.findRequiredView(source, 2131361863, "field 'menuLv'");
+    target.menuLv = finder.castView(view, 2131361863, "field 'menuLv'");
+    view = finder.findRequiredView(source, 2131361854, "field 'listview'");
+    target.listview = finder.castView(view, 2131361854, "field 'listview'");
+    view = finder.findRequiredView(source, 2131361868, "field 'fourTv' and method 'onClick'");
+    target.fourTv = finder.castView(view, 2131361868, "field 'fourTv'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -58,8 +82,16 @@ public class MainActivity$$ViewBinder<T extends com.example.androidtemplate.Main
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361854, "field 'listview'");
-    target.listview = finder.castView(view, 2131361854, "field 'listview'");
+    view = finder.findRequiredView(source, 2131361812, "field 'leftTv' and method 'onClick'");
+    target.leftTv = finder.castView(view, 2131361812, "field 'leftTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
     view = finder.findRequiredView(source, 2131361814, "field 'rightTv' and method 'onClick'");
     target.rightTv = finder.castView(view, 2131361814, "field 'rightTv'");
     view.setOnClickListener(
@@ -70,38 +102,6 @@ public class MainActivity$$ViewBinder<T extends com.example.androidtemplate.Main
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131361862, "field 'shadeLv'");
-    target.shadeLv = finder.castView(view, 2131361862, "field 'shadeLv'");
-    view = finder.findRequiredView(source, 2131361811, "field 'titleLl'");
-    target.titleLl = finder.castView(view, 2131361811, "field 'titleLl'");
-    view = finder.findRequiredView(source, 2131361813, "field 'titleTv'");
-    target.titleTv = finder.castView(view, 2131361813, "field 'titleTv'");
-    view = finder.findRequiredView(source, 2131361863, "field 'menuLv'");
-    target.menuLv = finder.castView(view, 2131361863, "field 'menuLv'");
-    view = finder.findRequiredView(source, 2131361864, "field 'backTv' and method 'onClick'");
-    target.backTv = finder.castView(view, 2131361864, "field 'backTv'");
-    view.setOnClickListener(
-      new butterknife.internal.DebouncingOnClickListener() {
-        @Override public void doClick(
-          android.view.View p0
-        ) {
-          target.onClick(p0);
-        }
-      });
-    view = finder.findRequiredView(source, 2131361867, "field 'threeTv' and method 'onClick'");
-    target.threeTv = finder.castView(view, 2131361867, "field 'threeTv'");
-    view.setOnClickListener(
-      new butterknife.internal.DebouncingOnClickListener() {
-        @Override public void doClick(
-          android.view.View p0
-        ) {
-          target.onClick(p0);
-        }
-      });
-    view = finder.findRequiredView(source, 2131361861, "field 'menuRl'");
-    target.menuRl = finder.castView(view, 2131361861, "field 'menuRl'");
-    view = finder.findRequiredView(source, 2131361815, "field 'contentLl'");
-    target.contentLl = finder.castView(view, 2131361815, "field 'contentLl'");
     view = finder.findRequiredView(source, 2131361869, "method 'onClick'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -114,20 +114,20 @@ public class MainActivity$$ViewBinder<T extends com.example.androidtemplate.Main
   }
 
   @Override public void unbind(T target) {
-    target.fourTv = null;
-    target.leftTv = null;
-    target.twoTv = null;
-    target.oneTv = null;
-    target.fiveTv = null;
-    target.listview = null;
-    target.rightTv = null;
-    target.shadeLv = null;
-    target.titleLl = null;
-    target.titleTv = null;
-    target.menuLv = null;
-    target.backTv = null;
-    target.threeTv = null;
     target.menuRl = null;
+    target.titleLl = null;
+    target.backTv = null;
+    target.twoTv = null;
+    target.threeTv = null;
+    target.titleTv = null;
     target.contentLl = null;
+    target.oneTv = null;
+    target.shadeLv = null;
+    target.menuLv = null;
+    target.listview = null;
+    target.fourTv = null;
+    target.fiveTv = null;
+    target.leftTv = null;
+    target.rightTv = null;
   }
 }
